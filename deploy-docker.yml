@@ -26,7 +26,7 @@
        name: docker
     - name: Start the container
       docker_container:
-        name: webapp
+        name: apollo
         image: "atabongfontem/apollo:v1"
         state: started
         published_ports:
